@@ -77,7 +77,7 @@ make flash
 
 ### NOTE:
 `make flash` is not implemented yet. The following procedure probably works:
-1.Connect your STM32 board to your computer via USB.
+1. Connect your STM32 board to your computer via USB
 2. Start OpenOCD with the appropriate configuration file for your board:
 	```sh
 	openocd -f board/<board>.cfg
